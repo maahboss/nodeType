@@ -9,7 +9,7 @@
     "build": "npx tsc --build",
     "test": "mocha --check-leaks -r ts-node/register -r tsconfig-paths/register \"src/test/**/*.spec.ts\"",
     "data:import": "ts-node src/database/seeder.ts",
-    "data:destroy": "ts-node src/database/seeder.ts -d"
+    "data:destroy": "ts-node src/database/seeder.ts -d" 
   },
   "keywords": [],
   "author": "",
