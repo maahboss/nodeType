@@ -1,0 +1,29 @@
+# compiled output
+/tmp
+/datadir
+/out-tsc
+/server/build
+/src/*.js
+*js.map
+# dependencies
+/node_modules
+/server/node_modules
+# IDEs and editors
+/.idea
+
+# yml
+buildspec.yml
+
+# misc
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+# System Files
+.DS_Store
+Thumbs.db
+#env
+.env
+.test.env
+/dist
+.nyc_output
